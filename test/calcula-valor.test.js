@@ -108,4 +108,9 @@ describe('calcularPrestacoes', () => {
     expect(prestacoes).tenhaSomaDeValoresIgual(montante)
     expect(prestacoes).sejaDecrescente()
   })
+
+  test.only('teste para o git', () => {
+    const soma = calculaValor.somar(2, 3)
+    expect(soma).toBe(5)
+  })
 })

@@ -13,6 +13,10 @@ function calcularMontante (capital, taxa, periodo) {
   return montante
 }
 
+function somar (a, b) {
+  return (a + b)
+}
+
 function calcularPrestacoes (montante, numeroParcelas) {
   const prestacaoBase = arredondar(montante / numeroParcelas)
   const resultado = Array(numeroParcelas).fill(prestacaoBase)
@@ -35,5 +39,6 @@ function calcularPrestacoes (montante, numeroParcelas) {
 module.exports = {
   calcularMontante,
   arredondar,
-  calcularPrestacoes
+  calcularPrestacoes,
+  somar
 }
