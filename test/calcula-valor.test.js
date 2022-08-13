@@ -109,6 +109,11 @@ describe('calcularPrestacoes', () => {
     expect(prestacoes).sejaDecrescente()
   })
 
+  test.only('teste para o git', () => {
+    const soma = calculaValor.somar(2, 3)
+    expect(soma).toBe(5)
+  })
+
   test('teste de subtracao',()=>{
       const sub = calculaValor.subtracao(5,2);
       expect(sub).toBe(3);

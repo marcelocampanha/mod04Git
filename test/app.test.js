@@ -18,7 +18,7 @@ describe('Testes de Integração', () => {
   const resultadoEsperado = {
     montante: 106.9,
     juros: 0.025,
-    parcelas: 4,
+    parcelas: 3,
     primeiraPrestacao: 35.64,
     prestacoes: [35.64, 35.63, 35.63]
   }
