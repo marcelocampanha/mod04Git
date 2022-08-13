@@ -108,4 +108,10 @@ describe('calcularPrestacoes', () => {
     expect(prestacoes).tenhaSomaDeValoresIgual(montante)
     expect(prestacoes).sejaDecrescente()
   })
+
+  test('teste de subtracao',()=>{
+      const sub = calculaValor.subtracao(5,2);
+      expect(sub).toBe(3);
+
+  })
 })
